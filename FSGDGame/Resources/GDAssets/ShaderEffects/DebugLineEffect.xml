@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ShaderEffect>
+	<Technique name="Basic">
+		<Pass name="P0">
+			<GeometryShader>LineWidth_GS.cso</GeometryShader>
+			<VertexShader>PosColorTransform_VS.cso</VertexShader>
+			<PixelShader>ColorPassThrough_PS.cso</PixelShader>
+		</Pass>	
+	</Technique>
+</ShaderEffect>

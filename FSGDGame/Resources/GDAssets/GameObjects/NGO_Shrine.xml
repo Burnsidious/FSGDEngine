@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<GameObject>
+  <Name>Shrine</Name>
+  <Renderer>
+    <TypeName>ShapeRenderer</TypeName>
+    <Path>GDForm/frm_Shrine.xml</Path>
+  </Renderer>
+  <Collider>
+    <TypeName>BVHCollider</TypeName>
+    <Path>GDMesh/shrineShape.bin</Path>
+  </Collider>
+</GameObject>

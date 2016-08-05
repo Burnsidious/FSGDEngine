@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<ShaderEffect>
+	<Technique name="Basic">
+		<Pass name="P0">
+			<VertexShader>LitTextured_VS.cso</VertexShader>
+			<PixelShader>LitTextured_PS.cso</PixelShader>
+		</Pass>	
+	</Technique>
+	<Technique name="Transparency">
+		<Pass name="P0">
+			<VertexShader>LitTextured_VS.cso</VertexShader>
+			<PixelShader>LitTextured_PS.cso</PixelShader>
+		</Pass>	
+	</Technique>	
+	<Technique name="GBuffers">
+		<Pass name="P0">
+			<VertexShader>GBuffersSkinned_VS.cso</VertexShader>
+			<PixelShader>GBuffers_PS.cso</PixelShader>
+		</Pass>	
+	</Technique>
+	<Technique name="DepthCamera">
+		<Pass name="P0">
+			<VertexShader>DepthCamera_VS.cso</VertexShader>
+			<PixelShader>Depth_PS.cso</PixelShader>
+		</Pass>	
+	</Technique>
+	<Technique name="DepthSpotLight">
+		<Pass name="P0">
+			<VertexShader>DepthSpotSkinned_VS.cso</VertexShader>
+			<PixelShader>Depth_PS.cso</PixelShader>
+		</Pass>	
+	</Technique>		
+	<Technique name="DepthDirectionalLight">
+		<Pass name="P0">
+			<VertexShader>DepthDirectionalSkinned_VS.cso</VertexShader>
+			<PixelShader>Depth_PS.cso</PixelShader>
+		</Pass>	
+	</Technique>	
+	<Technique name="DepthPointLight">
+		<Pass name="P0">
+			<VertexShader>DepthPointSkinned_VS.cso</VertexShader>
+			<GeometryShader>CubeMap_GS.cso</GeometryShader>
+			<PixelShader>Depth_PS.cso</PixelShader>
+		</Pass>	
+	</Technique>
+</ShaderEffect>

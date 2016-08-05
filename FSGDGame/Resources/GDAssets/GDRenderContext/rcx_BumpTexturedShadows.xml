@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<GDRenderContext name="BumpTexturedShadows">
+<Material></Material>
+<Effect>BumpTexturedEffect.xml</Effect>
+<Technique>Basic</Technique>
+<GBufferTechnique>GBuffersBump</GBufferTechnique>
+<DepthCameraTechnique>DepthCameraBump</DepthCameraTechnique>
+<DepthSpotLightTechnique>DepthSpotLightBump</DepthSpotLightTechnique>
+<DepthPointLightTechnique>DepthPointLightBump</DepthPointLightTechnique>
+<DepthDirectionalLightTechnique>DepthDirectionalLightBump</DepthDirectionalLightTechnique>
+<VertexFormat>VERTEX_POSNORMTANTEX</VertexFormat>
+<CastShadows>true</CastShadows>
+<RenderStyle>DEFERRED</RenderStyle>
+</GDRenderContext>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<GameObject>
+	<Renderer>
+		<TypeName>ShapeRenderer</TypeName>
+		<Path>GDForm\SoldierTestAnim\Soldier\SoldierShape/frm_mat_lambert2_rc_LitTexturedShadows.xml</Path>
+	</Renderer>
+	<Animation>
+		<!--<Clip>GDAnimation\SoldierTestAnim.bin</Clip>-->
+		<Clip>GDAnimation\Sample_Idle_001.bin</Clip>
+	</Animation>
+	<Collider>
+		<TypeName>CharacterCollider</TypeName>
+		<Center>
+			<x>0.0</x><y>0.95</y><z>0.0</z>
+		</Center>
+		<Direction>
+			<x>0.0</x><y>-1.0</y><z>0.0</z>
+		</Direction>
+		<Height>1.25</Height>
+		<Radius>0.35</Radius>
+	</Collider>
+	<RigidBody>
+		<CenterOfMass><y>1.0</y></CenterOfMass>
+		<AngularFactor>0.0</AngularFactor>
+		<LinearFactors><x>0.0</x><z>0.0</z></LinearFactors>
+		<Mass>1100</Mass>
+	</RigidBody>
+	<Children>
+			<GameObject>
+			<Path>GameObjects/NGO_Rifle.xml</Path>
+			<Parent>j_R_Attach</Parent>
+		</GameObject>
+	</Children>
+</GameObject>

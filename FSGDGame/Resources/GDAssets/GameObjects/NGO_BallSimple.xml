@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<GameObject>
+	<Renderer>
+		<TypeName>ShapeRenderer</TypeName>
+		<Path>GDForm/untitled/pSphere1/pSphereShape1/frm_mat_blinn1_rc_LitTexturedShadows.xml</Path>
+	</Renderer>
+</GameObject>

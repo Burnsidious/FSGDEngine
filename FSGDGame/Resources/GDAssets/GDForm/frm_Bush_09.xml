@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="Bush_01">
+<GDMeshFile>GDMesh/Bush_01.bin</GDMeshFile>
+<GDMaterialFile>GDMaterial/mat_Bush_09.xml</GDMaterialFile>
+<GDRenderContextFile>LitTexturedShadowsNoCull</GDRenderContextFile>
+</GDForm>

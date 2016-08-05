@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="Hut">
+<GDMeshFile>GDMesh/Hut.bin</GDMeshFile>
+<GDMaterialFile>GDMaterial/mat_Hut.xml</GDMaterialFile>
+<GDRenderContextFile>LitTexturedShadows</GDRenderContextFile>
+</GDForm>

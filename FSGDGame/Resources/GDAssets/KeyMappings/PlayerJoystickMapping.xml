@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<KeyMapping>
+  <!--<Key>LEFT_STICK_INPUT</Key>
+    <State>Held</State>
+    <Message>MSG_LEFT_JOYSTICK</Message>
+    <User>One</User>
+  <Key>RIGHT_STICK_INPUT</Key>
+    <State>Held</State>
+    <Message>MSG_RIGHT_JOYSTICK</Message>
+    <User>One</User>-->
+  <Key>VK_PAD_LTHUMB_MOVE</Key>
+  <State>Held</State>
+  <Message>MSG_MOVE</Message>
+  <User>One</User>
+
+  <Key>VK_PAD_B</Key>
+    <State>Held</State>
+    <Message>MSG_FART</Message>
+    <User>One</User>
+</KeyMapping>

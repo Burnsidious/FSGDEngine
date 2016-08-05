@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<GDRenderContext name="LitTexturedShadows">
+<Material></Material>
+<Effect>BumpTexturedSkinnedEffect.xml</Effect>
+<Technique>Basic</Technique>
+<GBufferTechnique>GBuffers</GBufferTechnique>
+<DepthCameraTechnique>DepthCamera</DepthCameraTechnique>
+<DepthSpotLightTechnique>DepthSpotLight</DepthSpotLightTechnique>
+<DepthPointLightTechnique>DepthPointLight</DepthPointLightTechnique>
+<DepthDirectionalLightTechnique>DepthDirectionalLight</DepthDirectionalLightTechnique>
+<VertexFormat>VERTEX_POSBONEWEIGHTNORMTANTEX</VertexFormat>
+<CastShadows>true</CastShadows>
+<RenderStyle>DEFERRED</RenderStyle>
+</GDRenderContext>

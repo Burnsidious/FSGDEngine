@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<Game>
+	<Layers>
+		<Name>Aggro</Name>
+	</Layers>
+	
+	<PhysicsMaterials>
+		<Material>
+			<Name>Rubber</Name>
+			<Bounciness>1.0</Bounciness>
+			<Friction>0.5</Friction>
+		</Material>
+	</PhysicsMaterials>
+	
+	<Prefabs>
+		<GameObject>
+			<Name>Terrain</Name>
+			<Path>GameObjects/NGO_Terrain.xml</Path>
+		</GameObject>
+		<GameObject>
+			<Name>AIBuggy</Name>
+			<Path>GameObjects/NGO_AIBuggy.xml</Path>
+		</GameObject>
+		<GameObject>
+			<Name>PlayerBuggy</Name>
+			<Path>GameObjects/NGO_PlayerBuggy.xml</Path>
+		</GameObject>
+		<GameObject>
+			<Name>Ball</Name>
+			<Path>GameObjects/NGO_Ball.xml</Path>
+		</GameObject>
+		<GameObject>
+			<Name>Crate</Name>
+			<Path>GameObjects/NGO_Crate.xml</Path>
+		</GameObject>
+		<GameObject>
+			<Name>JumpPad</Name>
+			<Path>GameObjects/NGO_JumpPad.xml</Path>
+		</GameObject>
+		<GameObject>
+			<Name>AISoldier</Name>
+			<Path>GameObjects/NGO_AISoldier.xml</Path>
+		</GameObject>
+		<GameObject>
+			<Name>Soldier</Name>
+			<Path>GameObjects/NGO_Soldier.xml</Path>
+		</GameObject>
+		<GameObject>
+			<Name>DirLight</Name>
+			<Path>GameObjects/NGO_DirLight.xml</Path>
+		</GameObject>		
+		<GameObject>
+			<Name>Camera</Name>
+			<Path>GameObjects/NGO_Camera.xml</Path>
+		</GameObject>
+		<GameObject>
+			<Name>Cube</Name>
+			<Path>GameObjects/NGO_Cube.xml</Path>
+		</GameObject>
+		<GameObject>
+			<Name>TrackingEye</Name>
+			<Path>GameObjects/NGO_TrackingEye.xml</Path>
+		</GameObject>
+		<GameObject>
+			<Name>RobotBoy</Name>
+			<Path>GameObjects/NGO_RobotBoy.xml</Path>
+		</GameObject>		
+	</Prefabs>
+	
+	<Scene>
+		<Name>Scene01</Name>
+		<SkyBox>
+			<TypeName>SkyBox</TypeName>
+			<Path>GDForm/skybox/pCube1/pCubeShape1/frm_mat_blinn1_rc_SkyBox0.xml</Path>
+		</SkyBox>
+
+		<Instance>
+			<Prefab>Camera</Prefab>
+		</Instance>
+		
+		<Instance>
+			<Prefab>Terrain</Prefab>
+		</Instance>
+		
+		<Instance>
+			<Prefab>DirLight</Prefab>
+			<Transform><ZAxis><x>-0.5</x><y>-0.5</y><z>-0.707</z></ZAxis></Transform>
+		</Instance>	
+
+		<!--<Instance>
+			<Prefab>PlayerBuggy</Prefab>
+			<Transform><WAxis><x>-20.0</x><y>-8.0</y><z>5.0</z></WAxis></Transform>
+		</Instance>
+		
+		<Instance>
+			<Prefab>AIBuggy</Prefab>
+			<Transform><WAxis><x>-15.0</x><y>-8.0</y></WAxis></Transform>
+		</Instance>
+		
+		<Instance>
+			<Prefab>AIBuggy</Prefab>
+			<Transform><WAxis><x>-15.0</x><y>-13.0</y></WAxis></Transform>
+		</Instance>
+		
+		<Instance>
+			<Prefab>Cube</Prefab>
+			<Transform><WAxis><x>3.0</x><y>5.0</y></WAxis></Transform>
+		</Instance>
+		
+		<Instance>
+			<Prefab>Cube</Prefab>
+			<Transform><WAxis><x>3.0</x><y>10.0</y></WAxis></Transform>
+		</Instance>
+		
+		<Instance>
+			<Prefab>Cube</Prefab>
+			<Transform><WAxis><x>3.0</x><y>15.0</y></WAxis></Transform>
+		</Instance>
+
+		<Instance>
+			<Prefab>Crate</Prefab>
+			<Transform><WAxis><x>-3.0</x><y>-8.75</y></WAxis></Transform>
+		</Instance>
+		<Instance>
+			<Prefab>Crate</Prefab>
+			<Transform><WAxis><x>-3.0</x><y>-8.25</y></WAxis></Transform>
+		</Instance>
+		<Instance>
+			<Prefab>Crate</Prefab>
+			<Transform><WAxis><x>-3.0</x><y>-7.75</y></WAxis></Transform>
+		</Instance>
+		<Instance>
+			<Prefab>Crate</Prefab>
+			<Transform><WAxis><x>-3.0</x><y>-7.25</y></WAxis></Transform>
+		</Instance>
+		<Instance>
+			<Prefab>Crate</Prefab>
+			<Transform><WAxis><x>-5.0</x><y>-8.75</y></WAxis></Transform>
+		</Instance>
+		<Instance>
+			<Prefab>Crate</Prefab>
+			<Transform><WAxis><x>-5.0</x><y>-8.25</y></WAxis></Transform>
+		</Instance>
+		<Instance>
+			<Prefab>Crate</Prefab>
+			<Transform><WAxis><x>-5.0</x><y>-7.75</y></WAxis></Transform>
+		</Instance>
+		<Instance>
+			<Prefab>Crate</Prefab>
+			<Transform><WAxis><x>-5.0</x><y>-7.25</y></WAxis></Transform>
+		</Instance>
+		
+		<Instance>
+			<Prefab>Ball</Prefab>
+			<Transform><WAxis><y>0.0</y><z>3.0</z></WAxis></Transform>
+		</Instance>
+		<Instance>
+			<Prefab>Ball</Prefab>
+			<Transform><WAxis><y>2.0</y><z>3.0</z></WAxis></Transform>
+		</Instance>
+		<Instance>
+			<Prefab>Ball</Prefab>
+			<Transform><WAxis><y>4.0</y><z>3.0</z></WAxis></Transform>
+		</Instance>
+		<Instance>
+			<Prefab>Ball</Prefab>
+			<Transform><WAxis><y>6.0</y><z>3.0</z></WAxis></Transform>
+		</Instance>
+		<Instance>
+			<Prefab>Ball</Prefab>
+			<Transform><WAxis><y>8.0</y><z>3.0</z></WAxis></Transform>
+		</Instance>
+		<Instance>
+			<Prefab>Ball</Prefab>
+			<Transform><WAxis><y>10.0</y><z>3.0</z></WAxis></Transform>
+		</Instance>
+		
+		<Instance>
+			<Prefab>AISoldier</Prefab>
+			<Transform><WAxis><x>5.0</x><y>0.0</y><z>4.0</z></WAxis></Transform>
+		</Instance>
+		
+		<Instance>
+			<Prefab>AISoldier</Prefab>
+			<Transform><WAxis><x>10.0</x><y>0.0</y><z>4.0</z></WAxis></Transform>
+		</Instance>
+
+		<Instance>
+			<Prefab>Soldier</Prefab>
+			<Transform><WAxis><x>-20.0</x><y>-8.0</y><z>-8.0</z></WAxis></Transform>
+		</Instance>
+		
+		<Instance>
+			<Prefab>TrackingEye</Prefab>
+			<Transform><WAxis><x>-20.0</x><y>-4.0</y><z>-8.0</z></WAxis></Transform>
+		</Instance>
+		
+		<Instance>
+			<Prefab>RobotBoy</Prefab>
+			<Transform><WAxis><x>-20.0</x><y>-4.0</y><z>-8.0</z></WAxis></Transform>
+		</Instance>-->
+
+	</Scene>
+</Game>
+

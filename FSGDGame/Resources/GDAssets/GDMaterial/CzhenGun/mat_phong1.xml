@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<GDMaterial name="phong1">
+<Ambient>
+<r>0</r>
+<g>0</g>
+<b>0</b>
+<a>1</a>
+</Ambient>
+<Diffuse_Map>CZhen_Diffuse.dds</Diffuse_Map>
+<Diffuse>
+<r>0</r>
+<g>0</g>
+<b>0</b>
+<a>1</a>
+</Diffuse>
+<Specular_Map>CZhen_Spec.dds</Specular_Map>
+<Specular>
+<r>0</r>
+<g>0</g>
+<b>0</b>
+<a>1</a>
+</Specular>
+<Emmisive>
+<r>0</r>
+<g>0</g>
+<b>0</b>
+<a>1</a>
+</Emmisive>
+<Reflected>
+<r>0</r>
+<g>0</g>
+<b>0</b>
+<a>1</a>
+</Reflected>
+<Normal_Map>CZhen_Normal.dds</Normal_Map>
+</GDMaterial>

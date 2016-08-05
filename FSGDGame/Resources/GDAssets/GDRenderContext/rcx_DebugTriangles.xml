@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<GDRenderContext name="DebugLines">
+<Material></Material>
+<Effect>DebugTriangleEffect.xml</Effect>
+<Technique>Basic</Technique>
+<UnlitTechnique>Basic</UnlitTechnique>
+<VertexFormat>VERTEX_POSCOLOR</VertexFormat>
+<CastShadows>false</CastShadows>
+<RenderStyle>FORWARD</RenderStyle>
+</GDRenderContext>

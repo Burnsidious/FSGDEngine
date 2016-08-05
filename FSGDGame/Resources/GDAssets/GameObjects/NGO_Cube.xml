@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<GameObject>
+	<Tag>Cube</Tag>
+	<Renderer>
+		<TypeName>ShapeRenderer</TypeName>
+		<Path>GDForm/LowRes/Low_Res/Low_ResShape/frm_mat_lambert1_rc_LitTexturedShadows.xml</Path>
+		<Path>GDForm/MedRes/Med_Res/Med_ResShape/frm_mat_lambert1_rc_LitTexturedShadows.xml</Path>
+		<Path>GDForm/HighRes/High_Res/High_ResShape/frm_mat_lambert1_rc_LitTexturedShadows.xml</Path>
+	</Renderer>
+	<Collider>
+		<TypeName>BoxCollider</TypeName>
+		<Center><x>0.0</x><y>0.0</y><z>0.0</z></Center>
+		<Extents><x>2.4</x><y>2.4</y><z>2.4</z></Extents>
+	</Collider>
+	<RigidBody>
+		<CenterOfMass><y>0.0</y></CenterOfMass>
+		<Mass>5000</Mass>
+	</RigidBody>
+	<Behaviors>
+	</Behaviors>
+</GameObject>

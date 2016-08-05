@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<GameObject>
+  <Name>TreeHouse</Name>
+  <Renderer>
+    <TypeName>ShapeRenderer</TypeName>
+    <Path>GDForm/frm_TempleLamp.xml</Path>
+  </Renderer>
+  <Collider>
+    <TypeName>BVHCollider</TypeName>
+    <Path>GDMesh/TempleLamp.bin</Path>
+  </Collider>
+
+  <Children>
+    <GameObject>
+      <Transform>
+        <WAxis>
+          <x>0.0</x>
+          <y>2.8</y>
+          <z>0.0</z>
+        </WAxis>
+      </Transform>
+      <Light>
+        <TypeName>PointLightSource</TypeName>
+        <CastShadows>0</CastShadows>
+        <Range>10.0</Range>
+        <Ambient>
+          <r>0.3</r>
+          <g>0.15</g>
+          <b>0.03</b>
+        </Ambient>
+        <Diffuse>
+          <r>1.0</r>
+          <g>0.5</g>
+          <b>0.1</b>
+        </Diffuse>
+        <Specular>
+          <r>1.0</r>
+          <g>0.5</g>
+          <b>0.1</b>
+        </Specular>
+      </Light>
+    </GameObject>
+  </Children>
+</GameObject>

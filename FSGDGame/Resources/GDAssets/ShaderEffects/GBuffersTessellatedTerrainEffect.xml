@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<ShaderEffect>
+	<Technique name="TerrainGBuffers">
+		<Pass name="P0">
+			<VertexShader>GBuffersTessellatedTerrain_VS.cso</VertexShader>
+			<HullShader>GBuffersTessellatedTerrain_HS.cso</HullShader>
+			<DomainShader>GBuffersTessellatedTerrain_DS.cso</DomainShader>			
+			<PixelShader>GBuffersTessellatedTerrain_PS.cso</PixelShader>
+		</Pass>	
+	</Technique>
+	<!--<Technique name="DepthCamera">
+		<Pass name="P0">
+			<VertexShader>DepthCamera_VS.cso</VertexShader>
+			<PixelShader>Depth_PS.cso</PixelShader>
+		</Pass>	
+	</Technique>	
+	<Technique name="DepthSpotLight">
+		<Pass name="P0">
+			<VertexShader>DepthSpot_VS.cso</VertexShader>
+			<PixelShader>Depth_PS.cso</PixelShader>
+		</Pass>	
+	</Technique>		
+	<Technique name="DepthDirectionalLight">
+		<Pass name="P0">
+			<VertexShader>DepthDirectional_VS.cso</VertexShader>
+			<PixelShader>Depth_PS.cso</PixelShader>
+		</Pass>	
+	</Technique>	
+	<Technique name="DepthPointLight">
+		<Pass name="P0">
+			<VertexShader>DepthPoint_VS.cso</VertexShader>
+			<GeometryShader>CubeMap_GS.cso</GeometryShader>
+			<PixelShader>DepthPoint_PS.cso</PixelShader>
+		</Pass>	
+	</Technique>-->
+</ShaderEffect>

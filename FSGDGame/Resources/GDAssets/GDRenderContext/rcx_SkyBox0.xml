@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<GDRenderContext name="SkyBox0">
+<Material></Material>
+<Effect>SkyBoxEffect.xml</Effect>
+<Technique>Basic</Technique>
+<UnlitTechnique>Basic</UnlitTechnique>
+<VertexFormat>VERTEX_POS</VertexFormat>
+<CastShadows>false</CastShadows>
+<RenderStyle>FORWARD</RenderStyle>
+</GDRenderContext>

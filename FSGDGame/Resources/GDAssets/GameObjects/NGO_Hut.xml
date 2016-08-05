@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<GameObject>
+  <Name>Hut</Name>
+  <Renderer>
+    <TypeName>ShapeRenderer</TypeName>
+    <Path>GDForm/frm_Hut.xml</Path>
+  </Renderer>
+  <Collider>
+    <TypeName>BVHCollider</TypeName>
+    <Path>GDMesh/Hut.bin</Path>
+  </Collider>
+</GameObject>

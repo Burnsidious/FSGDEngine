@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="PointLightDeferred">
+<GDMeshFile>GDMesh/unitsphere/pSphereShape1.bin</GDMeshFile>
+<GDRenderContextFile>PointLightDeferred</GDRenderContextFile>
+<RenderShapeType>RenderShapeLight</RenderShapeType>
+</GDForm>

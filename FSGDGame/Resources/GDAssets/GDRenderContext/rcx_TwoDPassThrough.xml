@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<GDRenderContext name="rcx_2DPassThrough">
+<Material></Material>
+<Effect>2DPassThrough.xml</Effect>
+<Technique>Basic</Technique>
+<UnlitTechnique>Basic</UnlitTechnique>
+<VertexFormat>VERTEX_POSTEX</VertexFormat>
+<CastShadows>false</CastShadows>
+<RenderStyle>FORWARD</RenderStyle>
+</GDRenderContext>

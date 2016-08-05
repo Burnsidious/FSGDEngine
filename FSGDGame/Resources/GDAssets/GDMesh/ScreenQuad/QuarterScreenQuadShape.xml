@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<GDMesh name="ScreenQuadShape">
+	<NumVerts>4</NumVerts>
+	<Triangle_List count="2">		
+		<Triangle n="0">
+			<Index n="0">0</Index>
+			<Index n="1">1</Index>
+			<Index n="2">2</Index>
+		</Triangle>
+		<Triangle n="1">
+			<Index n="0">1</Index>
+			<Index n="1">0</Index>
+			<Index n="2">3</Index>
+		</Triangle>
+	</Triangle_List>
+	<GDMeshAttribute_List count="7">
+<GDMeshAttribute>
+<Point_List>
+<Point>
+<x>-1.000000</x><y>0.000000</y><z>0.000000</z>
+</Point>
+<Point>
+<x>0.000000</x><y>-1.000000</y><z>0.000000</z>
+</Point>
+<Point>
+<x>-1.000000</x><y>-1.000000</y><z>0.000000</z>
+</Point>
+<Point>
+<x>0.000000</x><y>0.000000</y><z>0.000000</z>
+</Point>
+</Point_List>
+</GDMeshAttribute>
+<GDMeshAttribute>
+<TexCoord_List name="map1">
+<TexCoord>
+<s>0.000000</s><t>0.000000</t>
+</TexCoord>
+<TexCoord>
+<s>1.000000</s><t>1.000000</t>
+</TexCoord>
+<TexCoord>
+<s>0.000000</s><t>1.000000</t>
+</TexCoord>
+<TexCoord>
+<s>1.000000</s><t>0.000000</t>
+</TexCoord>
+</TexCoord_List>
+</GDMeshAttribute>
+	</GDMeshAttribute_List>
+</GDMesh>

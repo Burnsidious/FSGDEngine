@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<GameObject>
+  
+	<Renderer>
+		<TypeName>ShapeRenderer</TypeName>
+		<Path>GDForm/untitled/pSphere1/pSphereShape1/frm_mat_borgcube.xml</Path>
+	</Renderer>
+
+  <Behaviors>
+    <PythonBehavior>
+		    <TargetName>PlayerBuggy</TargetName>
+    </PythonBehavior>
+  </Behaviors>
+
+  <Tag>PythonBehavior</Tag>
+
+</GameObject>

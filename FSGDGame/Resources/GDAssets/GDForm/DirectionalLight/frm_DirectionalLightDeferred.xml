@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="DirectionalLightDeferred">
+<GDMeshFile>GDMesh/ScreenQuad/ScreenQuadShape.xml</GDMeshFile>
+<GDRenderContextFile>DirectionalLightDeferred</GDRenderContextFile>
+<RenderShapeType>RenderShape</RenderShapeType>
+</GDForm>

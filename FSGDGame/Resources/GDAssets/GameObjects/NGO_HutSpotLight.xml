@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<GameObject>
+  <Name>HutSpotLight</Name>
+  <Light>
+    <TypeName>SpotLightSource</TypeName>
+    <CastShadows>1</CastShadows>
+    <Diffuse>
+      <r>1.0</r>
+      <g>1.0</g>
+      <b>0.5</b>
+    </Diffuse>
+    <Ambient>
+      <r>0.2</r>
+      <g>0.2</g>
+      <b>0.1</b>
+    </Ambient>
+    <Specular>
+      <r>0.5</r>
+      <g>0.5</g>
+      <b>0.0</b>
+    </Specular>
+    <Range>5</Range>
+  </Light>
+</GameObject>

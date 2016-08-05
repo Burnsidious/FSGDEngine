@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="MushroomTree">
+<GDMeshFile>GDMesh/MushroomTree.bin</GDMeshFile>
+<GDMaterialFile>GDMaterial/mat_MushroomTree.xml</GDMaterialFile>
+<GDRenderContextFile>LitTexturedShadows</GDRenderContextFile>
+</GDForm>

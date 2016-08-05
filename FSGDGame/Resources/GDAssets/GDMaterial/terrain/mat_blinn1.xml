@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<GDMaterial name="blinn1">
+<Ambient_Map>normalPlusHeights.dds</Ambient_Map>
+<Ambient>
+<r>0</r>
+<g>0</g>
+<b>0</b>
+<a>1</a>
+</Ambient>
+<Diffuse_Map>neg_y.dds</Diffuse_Map>
+<Diffuse>
+<r>0</r>
+<g>0</g>
+<b>0</b>
+<a>1</a>
+</Diffuse>
+<Specular_Map>dirt3.dds</Specular_Map>
+<Specular>
+<r>0</r>
+<g>0</g>
+<b>0</b>
+<a>1</a>
+</Specular>
+<Emmisive>
+<r>0</r>
+<g>0</g>
+<b>0</b>
+<a>1</a>
+</Emmisive>
+<Reflected>
+<r>0</r>
+<g>0</g>
+<b>0</b>
+<a>1</a>
+</Reflected>
+<Normal_Map>noise4.dds</Normal_Map>
+</GDMaterial>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<GDRenderContext name="LitTextured">
+<Material></Material>
+<Effect>GBuffersTessellatedTerrainEffect.xml</Effect>
+<Technique>Terrain</Technique>
+<GBufferTechnique>TerrainGBuffers</GBufferTechnique>
+<!--<DepthCameraTechnique>DepthCamera</DepthCameraTechnique>
+<DepthSpotLightTechnique>DepthSpotLight</DepthSpotLightTechnique>
+<DepthPointLightTechnique>DepthPointLight</DepthPointLightTechnique>
+<DepthDirectionalLightTechnique>DepthDirectionalLight</DepthDirectionalLightTechnique>-->
+<VertexFormat>VERTEX_TERRAIN</VertexFormat>
+<CastShadows>false</CastShadows>
+<RenderStyle>DEFERRED</RenderStyle>
+</GDRenderContext>

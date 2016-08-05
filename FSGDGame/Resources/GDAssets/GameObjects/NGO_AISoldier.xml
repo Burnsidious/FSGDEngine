@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<GameObject>
+	<Path>GameObjects/NGO_Soldier.xml</Path>
+	<Behaviors>
+		<Mover/>
+		<Evader>
+			<EvadingTag>Buggy</EvadingTag>
+		</Evader>
+	</Behaviors>
+	<Children>
+		<GameObject>
+			<Tag>AISoldier</Tag>
+			<Layer>Aggro</Layer>
+			<Collider>
+				<TypeName>SphereCollider</TypeName>
+				<Radius>15.0</Radius>
+				<Trigger/>
+			</Collider>
+		</GameObject>
+	</Children>
+</GameObject>

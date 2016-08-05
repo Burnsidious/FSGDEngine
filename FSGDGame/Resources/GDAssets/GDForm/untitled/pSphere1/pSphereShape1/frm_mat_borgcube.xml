@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="frm_mat_beholder">
+<GDMeshFile>GDMesh/unitcube/pCubeShape1.bin</GDMeshFile>
+<GDMaterialFile>GDMaterial/untitled/mat_borgcube.xml</GDMaterialFile>
+<GDRenderContextFile>LitTexturedTransparent</GDRenderContextFile>
+</GDForm>

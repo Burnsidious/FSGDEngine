@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="mat_phong1_rc_LitTexturedShadows">
+<GDMeshFile>/GDMesh/Rifle_01/RifleShape.bin</GDMeshFile>
+<GDMaterialFile>/GDMaterial/CzhenGun/mat_phong1.xml</GDMaterialFile>
+<GDRenderContextFile>BumpTexturedShadows</GDRenderContextFile>
+</GDForm>

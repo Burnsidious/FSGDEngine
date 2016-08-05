@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Game>
+	<Layers>
+		<Name>Aggro</Name>
+	</Layers>
+	<PhysicsMaterials>
+		<Material>
+			<Name>Rubber</Name>
+			<Bounciness>1.0</Bounciness>
+			<Friction>0.5</Friction>
+		</Material>
+	</PhysicsMaterials>
+	<Prefabs>
+		<GameObject>
+			<Name>Terrain</Name>
+			<Path>GameObjects/NGO_TessTerrain.xml</Path>
+		</GameObject>
+		<GameObject>
+			<Name>DirLight</Name>
+			<Path>GameObjects/NGO_DirLight.xml</Path>
+		</GameObject>		
+		<GameObject>
+			<Name>Camera</Name>
+			<Path>GameObjects/NGO_CameraBigView.xml</Path>
+		</GameObject>
+		<GameObject>
+			<Name>TrackingEye</Name>
+			<Path>GameObjects/NGO_TrackingEye.xml</Path>
+		</GameObject>
+		<GameObject>
+			<Name>RobotBoy</Name>
+			<Path>GameObjects/NGO_RobotBoy.xml</Path>
+		</GameObject>
+
+	</Prefabs>
+
+	<Scene>
+		<Name>Scene01</Name>
+		<SkyBox>
+			<TypeName>SkyBox</TypeName>
+			<Path>GDForm/skybox/pCube1/pCubeShape1/frm_mat_blinn1_rc_SkyBox0.xml</Path>
+		</SkyBox>
+
+		<Instance>
+			<Prefab>DirLight</Prefab>
+			<Transform><ZAxis><x>-0.5</x><y>-0.5</y><z>-0.707</z></ZAxis></Transform>
+		</Instance>	
+
+		<Instance>
+			<Prefab>Camera</Prefab>
+		</Instance>
+		
+		<Instance>
+			<Prefab>Terrain</Prefab>
+		</Instance>
+		
+		<Instance>
+			<Prefab>TrackingEye</Prefab>
+			<Transform><WAxis><x>-20.0</x><y>-4.0</y><z>-8.0</z></WAxis></Transform>
+		</Instance>
+		
+		<Instance>
+			<Prefab>RobotBoy</Prefab>
+			<Transform><WAxis><x>-20.0</x><y>-4.0</y><z>-8.0</z></WAxis></Transform>
+		</Instance>
+
+	</Scene>
+	
+</Game>
+

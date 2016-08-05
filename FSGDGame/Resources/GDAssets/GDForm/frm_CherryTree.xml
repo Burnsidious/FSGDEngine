@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="CherryTree">
+<GDMeshFile>GDMesh/CherryTree.bin</GDMeshFile>
+<GDMaterialFile>GDMaterial/mat_Cherry_lambert2.xml</GDMaterialFile>
+<GDRenderContextFile>BumpTexturedShadowsNoCull</GDRenderContextFile>
+</GDForm>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="mat_lambert1_rc_LitTexturedShadows">
+<GDMeshFile>GDMesh/HighRes/High_ResShape.bin</GDMeshFile>
+<GDMaterialFile>GDMaterial/HighRes/mat_lambert1.xml</GDMaterialFile>
+<GDRenderContextFile>BumpTexturedShadows</GDRenderContextFile>
+</GDForm>

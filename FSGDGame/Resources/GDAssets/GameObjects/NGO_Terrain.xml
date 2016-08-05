@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<GameObject>
+  <Name>Terrain</Name>
+  <Renderer>
+    <TypeName>ShapeRenderer</TypeName>
+    <Path>GDForm/Terrain/pPlane1/pPlaneShape1/frm_mat_blinn1_rc_LitTextured.xml</Path>
+  </Renderer>
+  <Collider>
+    <TypeName>BVHCollider</TypeName>
+    <Path>GDMesh/terrain/pPlaneShape1.bin</Path>
+  </Collider>
+  <!--
+	<RigidBody>
+		<Kinematic/>
+	</RigidBody>
+	-->
+  <Behaviors>
+  </Behaviors>
+</GameObject>

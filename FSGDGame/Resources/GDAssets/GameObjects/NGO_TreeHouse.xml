@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<GameObject>
+  <Name>TreeHouse</Name>
+  <Renderer>
+    <TypeName>ShapeRenderer</TypeName>
+    <Path>GDForm/frm_TreeHouse.xml</Path>
+  </Renderer>
+  <Collider>
+    <TypeName>BVHCollider</TypeName>
+    <Path>GDMesh/TreeHouse.bin</Path>
+  </Collider>
+</GameObject>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ShaderEffect>
+	<Technique name="RenderSpotLight">
+		<Pass name="P0">
+			<VertexShader>FarClipPosition_VS.cso</VertexShader>
+			<PixelShader>DeferredSpotLightWithShadows_PS.cso</PixelShader>
+		</Pass>
+	</Technique>
+	<Technique name="RenderSpotLightOutside">
+		<Pass name="P0">
+			<VertexShader>FarClipPosition_VS.cso</VertexShader>
+			<PixelShader>Black_PS.cso</PixelShader>
+		</Pass>
+		<Pass name="P1">
+			<VertexShader>FarClipPosition_VS.cso</VertexShader>
+			<PixelShader>Black_PS.cso</PixelShader>
+		</Pass>
+		<Pass name="P2">
+			<VertexShader>FarClipPosition_VS.cso</VertexShader>
+			<PixelShader>DeferredSpotLightWithShadows_PS.cso</PixelShader>
+		</Pass>	
+	</Technique>
+	<Technique name="RenderSpotLightInside">
+		<Pass name="P0">
+			<VertexShader>FarClipPosition_VS.cso</VertexShader>
+			<PixelShader>Black_PS.cso</PixelShader>
+		</Pass>
+		<Pass name="P1">
+			<VertexShader>FarClipPosition_VS.cso</VertexShader>
+			<PixelShader>DeferredSpotLightWithShadows_PS.cso</PixelShader>
+		</Pass>	
+	</Technique>	
+</ShaderEffect>

@@ -1,0 +1,23 @@
+FSGDEngine Programmers in first-name alphabetical order:
+
+Alvin Huang
+Brad Curless
+Brandon Patterson
+Brian McAuliffe
+Chelsey Squanda
+Clark Abel
+Derek Bliss
+Jeremiah Blanchard
+John Wileczek
+Jonathan Burnside
+Joshua Fox
+Joseph Winter
+Juchan Park
+Matthew Norris
+Michael Lebo
+Phillip Croff
+Samuel Ratledge Jr
+Tim Turcich
+
+
+If I have missed anyone please email me at jonathan.burnside@gmail.com

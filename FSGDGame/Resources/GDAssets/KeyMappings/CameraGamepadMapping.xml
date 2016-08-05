@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<KeyMapping>
+	<Key>VK_PAD_LTHUMB_MOVE</Key>
+		<State>Held</State>
+		<Message>MSG_MOVE</Message>
+		<User>One</User>
+	<Key>VK_PAD_RTHUMB_MOVE</Key>
+		<State>Held</State>
+		<Message>MSG_ROTATE</Message>
+		<User>One</User>
+</KeyMapping>

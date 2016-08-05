@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<GDMaterial name="blinn1">
+<Ambient_Map>robotkid_AO.dds</Ambient_Map>
+<Ambient>
+<r>0</r>
+<g>0</g>
+<b>0</b>
+<a>1</a>
+</Ambient>
+<Diffuse_Map>VZ_Robot_Texture.dds</Diffuse_Map>
+<Diffuse>
+<r>0</r>
+<g>0</g>
+<b>0</b>
+<a>1</a>
+</Diffuse>
+<Specular>
+<r>0.5</r>
+<g>0.5</g>
+<b>0.5</b>
+<a>1</a>
+</Specular>
+<Specular_Map>WhitePixel.dds</Specular_Map>
+<Emmisive>
+<r>0</r>
+<g>0</g>
+<b>0</b>
+<a>1</a>
+</Emmisive>
+<Reflected>
+<r>0</r>
+<g>0</g>
+<b>0</b>
+<a>1</a>
+</Reflected>
+</GDMaterial>

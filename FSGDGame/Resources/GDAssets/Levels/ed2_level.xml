@@ -1,0 +1,488 @@
+<?xml version="1.0"?>
+<Game>
+  <Layers>
+    <Name>Aggro</Name>
+  </Layers>
+  <PhysicsMaterials>
+    <Material>
+      <Name>Rubber</Name>
+      <Bounciness>1.0</Bounciness>
+      <Friction>0.5</Friction>
+    </Material>
+  </PhysicsMaterials>
+  <Prefabs>
+    <GameObject>
+      <Name>Terrain</Name>
+      <Path>GameObjects/NGO_TerrainED2.xml</Path>
+    </GameObject>
+
+    <GameObject>
+      <Name>Shrine</Name>
+      <Path>GameObjects/NGO_Shrine.xml</Path>
+    </GameObject>
+
+    <GameObject>
+      <Name>BirdShrine</Name>
+      <Path>GameObjects/NGO_BirdShrine.xml</Path>
+    </GameObject>
+
+
+    <GameObject>
+      <Name>CherryTree</Name>
+      <Path>GameObjects/NGO_CherryTree.xml</Path>
+    </GameObject>
+
+    <GameObject>
+      <Name>Hut</Name>
+      <Path>GameObjects/NGO_Hut.xml</Path>
+    </GameObject>
+
+    <GameObject>
+      <Name>HutSpotLight</Name>
+      <Path>GameObjects/NGO_HutSpotLight.xml</Path>
+    </GameObject>
+
+    <GameObject>
+      <Name>BigTree</Name>
+      <Path>GameObjects/NGO_BigTree.xml</Path>
+    </GameObject>
+
+    <GameObject>
+      <Name>TreeHouse</Name>
+      <Path>GameObjects/NGO_TreeHouse.xml</Path>
+    </GameObject>
+
+    <GameObject>
+      <Name>TempleLamp</Name>
+      <Path>GameObjects/NGO_TempleLamp.xml</Path>
+    </GameObject>
+
+    <GameObject>
+      <Name>Bush_01</Name>
+      <Path>GameObjects/NGO_Bush_01.xml</Path>
+    </GameObject>
+
+    <GameObject>
+      <Name>Bush_02</Name>
+      <Path>GameObjects/NGO_Bush_02.xml</Path>
+    </GameObject>
+
+    <GameObject>
+      <Name>Bush_03</Name>
+      <Path>GameObjects/NGO_Bush_03.xml</Path>
+    </GameObject>
+
+    <GameObject>
+      <Name>Bush_04</Name>
+      <Path>GameObjects/NGO_Bush_04.xml</Path>
+    </GameObject>
+
+    <GameObject>
+      <Name>Bush_05</Name>
+      <Path>GameObjects/NGO_Bush_05.xml</Path>
+    </GameObject>
+
+    <GameObject>
+      <Name>Bush_06</Name>
+      <Path>GameObjects/NGO_Bush_06.xml</Path>
+    </GameObject>
+
+    <GameObject>
+      <Name>Bush_07</Name>
+      <Path>GameObjects/NGO_Bush_07.xml</Path>
+    </GameObject>
+
+    <GameObject>
+      <Name>Bush_08</Name>
+      <Path>GameObjects/NGO_Bush_08.xml</Path>
+    </GameObject>
+
+    <GameObject>
+      <Name>Bush_09</Name>
+      <Path>GameObjects/NGO_Bush_09.xml</Path>
+    </GameObject>
+
+    <GameObject>
+      <Name>Bush_10</Name>
+      <Path>GameObjects/NGO_Bush_10.xml</Path>
+    </GameObject>
+    
+    <GameObject>
+      <Name>MushroomTree</Name>
+      <Path>GameObjects/NGO_MushroomTree.xml</Path>
+    </GameObject>
+    
+    <GameObject>
+      <Name>Mushroom</Name>
+      <Path>GameObjects/NGO_Mushroom.xml</Path>
+    </GameObject>
+
+    <GameObject>
+      <Name>Ball</Name>
+      <Path>GameObjects/NGO_Ball.xml</Path>
+    </GameObject>
+
+    <GameObject>
+      <Name>SimpleBall</Name>
+      <Path>GameObjects/NGO_BallSimple.xml</Path>
+    </GameObject>
+    
+    <GameObject>
+      <Name>Soldier</Name>
+      <Path>GameObjects/NGO_Soldier.xml</Path>
+    </GameObject>
+    <GameObject>
+      <Name>DirLight</Name>
+      <Path>GameObjects/NGO_DirLight.xml</Path>
+    </GameObject>
+    <GameObject>
+      <Name>Camera</Name>
+      <Path>GameObjects/NGO_CameraED2.xml</Path>
+    </GameObject>
+    <GameObject>
+      <Name>Cube</Name>
+      <Path>GameObjects/NGO_Cube.xml</Path>
+    </GameObject>
+    <GameObject>
+      <Name>RobotBoy</Name>
+      <Path>GameObjects/NGO_RobotBoy.xml</Path>
+    </GameObject>
+
+  </Prefabs>
+
+  <Scene>
+    <Name>Scene01</Name>
+    <SkyBox>
+      <TypeName>SkyBox</TypeName>
+      <Path>GDForm/skybox/pCube1/pCubeShape1/frm_mat_blinn1_rc_SkyBox0.xml</Path>
+    </SkyBox>
+
+    <Instance>
+      <Prefab>DirLight</Prefab>
+      <Transform>
+        <ZAxis>
+          <x>-0.5</x>
+          <y>-0.707</y>
+          <z>-0.5</z>
+        </ZAxis>
+      </Transform>
+    </Instance>
+
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>0.0</x>
+          <y>1.0</y>
+          <z>-25.0</z>
+        </WAxis>
+      </Transform>
+      <Prefab>Camera</Prefab>
+    </Instance>
+
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>-3.0</x>
+          <y>1.0</y>
+          <z>-30.0</z>
+        </WAxis>
+      </Transform>
+      <Prefab>SimpleBall</Prefab>
+    </Instance>
+
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>0.0</x>
+          <y>1.0</y>
+          <z>-30.0</z>
+        </WAxis>
+      </Transform>
+      <Prefab>SimpleBall</Prefab>
+    </Instance>
+
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>3.0</x>
+          <y>1.0</y>
+          <z>-30.0</z>
+        </WAxis>
+      </Transform>
+      <Prefab>SimpleBall</Prefab>
+    </Instance>
+    
+    <Instance>
+      <Prefab>Terrain</Prefab>
+    </Instance>
+
+    <Instance>
+      <Prefab>Shrine</Prefab>
+    </Instance>
+
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>0.0</x>
+          <y>1.012</y>
+          <z>0.0</z>
+        </WAxis>
+      </Transform>
+      <Prefab>BirdShrine</Prefab>
+    </Instance>
+    
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>8.798</x>
+          <y>0.0</y>
+          <z>-4.397</z>
+        </WAxis>
+      </Transform>
+      <Prefab>CherryTree</Prefab>
+    </Instance>
+
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>10.162</x>
+          <y>0.6</y>
+          <z>-12.789</z>
+        </WAxis>
+      </Transform>
+      <Prefab>Hut</Prefab>
+    </Instance>
+
+    <Instance>
+      <Transform>
+        <XAxis>
+          <x>1.0</x>
+          <y>0.0</y>
+          <z>0.0</z>
+        </XAxis>
+        <YAxis>
+          <x>0.0</x>
+          <y>0.0</y>
+          <z>1.0</z>
+        </YAxis>
+        <ZAxis>
+          <x>0.0</x>
+          <y>-1.0</y>
+          <z>0.0</z>
+        </ZAxis>        
+        <WAxis>
+          <x>9.162</x>
+          <y>3.0</y>
+          <z>-12.6</z>
+        </WAxis>
+      </Transform>
+      <Prefab>HutSpotLight</Prefab>
+    </Instance>
+
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>9.0</x>
+          <y>0.0</y>
+          <z>-12.6</z>
+        </WAxis>
+      </Transform>
+      <Prefab>RobotBoy</Prefab>
+    </Instance>
+    
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>-12.882</x>
+          <y>-0.1</y>
+          <z>8.714</z>
+        </WAxis>
+        <!--<WAxis>
+          <x>-30.882</x>
+          <y>-0.1</y>
+          <z>20.714</z>
+        </WAxis>-->
+      </Transform>
+      <Prefab>BigTree</Prefab>
+    </Instance>
+
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>-16.99</x>
+          <y>0.0</y>
+          <z>-11.922</z>
+        </WAxis>
+      </Transform>
+      <Prefab>TreeHouse</Prefab>
+    </Instance>
+
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>-20.344</x>
+          <y>0.0</y>
+          <z>-16.858</z>
+        </WAxis>
+      </Transform>
+      <Prefab>TempleLamp</Prefab>
+    </Instance>
+
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>-20.344</x>
+          <y>0.0</y>
+          <z>-17.858</z>
+        </WAxis>
+      </Transform>
+      <Prefab>Soldier</Prefab>
+    </Instance>
+    
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>8.01</x>
+          <y>0.0</y>
+          <z>-8.122</z>
+        </WAxis>
+      </Transform>
+      <Prefab>Bush_01</Prefab>
+    </Instance>
+
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>-11.653</x>
+          <y>0.0</y>
+          <z>-12.302</z>
+        </WAxis>
+      </Transform>
+      <Prefab>Bush_02</Prefab>
+    </Instance>
+
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>-13.791</x>
+          <y>0.0</y>
+          <z>-7.528</z>
+        </WAxis>
+      </Transform>
+      <Prefab>Bush_03</Prefab>
+    </Instance>
+
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>-10.615</x>
+          <y>0.0</y>
+          <z>2.391</z>
+        </WAxis>
+      </Transform>
+      <Prefab>Bush_04</Prefab>
+    </Instance>
+
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>10.728</x>
+          <y>0.0</y>
+          <z>-17.0</z>
+        </WAxis>
+      </Transform>
+      <Prefab>Bush_05</Prefab>
+    </Instance>
+    
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>-13.812</x>
+          <y>0.0</y>
+          <z>-18.542</z>
+        </WAxis>
+      </Transform>
+      <Prefab>Bush_06</Prefab>
+    </Instance>
+    
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>7.888</x>
+          <y>0.0</y>
+          <z>-19.266</z>
+        </WAxis>
+      </Transform>
+      <Prefab>Bush_07</Prefab>
+    </Instance>
+    
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>-6.467</x>
+          <y>0.0</y>
+          <z>0.001</z>
+        </WAxis>
+      </Transform>
+      <Prefab>Bush_08</Prefab>
+    </Instance>
+    
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>-15.739</x>
+          <y>0.0</y>
+          <z>3.516</z>
+        </WAxis>
+      </Transform>
+      <Prefab>Bush_09</Prefab>
+    </Instance>
+    
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>8.765</x>
+          <y>0.0</y>
+          <z>0.049</z>
+        </WAxis>
+      </Transform>
+      <Prefab>Bush_10</Prefab>
+    </Instance>
+
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>-11.238</x>
+          <y>0.0</y>
+          <z>-3.558</z>
+        </WAxis>
+      </Transform>
+      <Prefab>MushroomTree</Prefab>
+    </Instance>
+
+  
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>-10.031</x>
+          <y>0.0</y>
+          <z>0.0</z>
+        </WAxis>
+      </Transform>
+      <Prefab>Mushroom</Prefab>
+    </Instance>
+
+    <Instance>
+      <Transform>
+        <WAxis>
+          <x>-15.0</x>
+          <y>5.0</y>
+          <z>-25.0</z>
+        </WAxis>
+      </Transform>
+      <Prefab>Cube</Prefab>
+    </Instance>
+    
+  </Scene>
+</Game>
+

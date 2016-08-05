@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<GDRenderContext name="DirectionalLightDeferred">
+	<Material></Material>
+	<Effect>DeferredDirectionalLight.xml</Effect>
+	<Technique>RenderDirLight</Technique>
+	<DirLightTechnique>RenderDirLight</DirLightTechnique>
+	<VertexFormat>VERTEX_POSTEX</VertexFormat>
+	<CastShadows>false</CastShadows>
+	<RenderStyle>DEFERRED</RenderStyle>
+</GDRenderContext>

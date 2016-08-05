@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<GameObject>
+  
+	<Renderer>
+		<TypeName>ShapeRenderer</TypeName>
+		<Path>GDForm/untitled/pSphere1/pSphereShape1/frm_mat_follower.xml</Path>
+	</Renderer>
+
+  <Behaviors>
+    <PIDFollower>
+		    <TargetName>PlayerBuggy</TargetName>
+        <Proportional>0.005f</Proportional>
+        <Integral>0.0025f</Integral>
+        <Differential>0.001f</Differential>
+    </PIDFollower>
+  </Behaviors>
+
+  <Tag>PIDFollower</Tag>
+
+</GameObject>

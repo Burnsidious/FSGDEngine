@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<GameObject>
+  <Name>Bush_01</Name>
+  <Renderer>
+    <TypeName>ShapeRenderer</TypeName>
+    <Path>GDForm/frm_Bush_01.xml</Path>
+  </Renderer>
+  <Collider>
+    <TypeName>BVHCollider</TypeName>
+    <Path>GDMesh/Bush_01.bin</Path>
+  </Collider>
+</GameObject>

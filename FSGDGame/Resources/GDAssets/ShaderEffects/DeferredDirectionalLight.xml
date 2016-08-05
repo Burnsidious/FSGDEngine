@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ShaderEffect>
+	<Technique name="RenderDirLight">
+		<Pass name="P0">
+			<VertexShader>2DPassThroughWithPosition_VS.cso</VertexShader>
+			<PixelShader>DeferredDirLight_PS.cso</PixelShader>
+		</Pass>	
+	</Technique>
+</ShaderEffect>

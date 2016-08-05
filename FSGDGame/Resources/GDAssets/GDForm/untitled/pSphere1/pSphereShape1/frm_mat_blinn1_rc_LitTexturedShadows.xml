@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="mat_blinn1_rc_LitTexturedShadows">
+<GDMeshFile>GDMesh/unitsphere/pSphereShape1.bin</GDMeshFile>
+<GDMaterialFile>GDMaterial/untitled/mat_blinn1.xml</GDMaterialFile>
+<GDRenderContextFile>LitTexturedTransparent</GDRenderContextFile>
+</GDForm>

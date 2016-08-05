@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartArguments>EDLabMaker.xml</StartArguments>
+    <StartWorkingDirectory>..\..\..\</StartWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <StartWorkingDirectory>..\..\..\</StartWorkingDirectory>
+    <StartArguments>EDLabMaker.xml</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'EngineToolDebug|x86'">
+    <StartWorkingDirectory>..\..\..\</StartWorkingDirectory>
+    <StartArguments>EDLabMaker.xml</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'EngineToolRelease|x86'">
+    <StartWorkingDirectory>..\..\..\</StartWorkingDirectory>
+    <StartArguments>EDLabMaker.xml</StartArguments>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ShaderEffect>
+	<Technique name="Basic">
+		<Pass name="P0">
+			<VertexShader>SkyBox_VS.cso</VertexShader>
+			<PixelShader>SkyBox_PS.cso</PixelShader>
+		</Pass>	
+	</Technique>
+</ShaderEffect>

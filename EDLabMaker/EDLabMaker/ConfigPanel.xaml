@@ -1,0 +1,162 @@
+﻿<UserControl x:Class="EDLabMaker.ConfigPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="570" d:DesignWidth="300">
+    <Grid Background="#FFD4D0C8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <Expander Header="Paths" BorderBrush="Black" Margin="2" Padding="2" Background="#FFF0F0F0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0">Engine path</Label>
+                    <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding MyConfig.PathToEngine, Mode=TwoWay}" />
+
+                    <Label Grid.Row="1" Grid.Column="0">Student path</Label>
+                    <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding MyConfig.PathToStudentEngine, Mode=TwoWay}" />
+
+                    <Label Grid.Row="2" Grid.Column="0">Batch file</Label>
+                    <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding MyConfig.PathToBatchFile, Mode=TwoWay}" />
+
+                    <Label Grid.Row="3" Grid.Column="0">Post Batch file</Label>
+                    <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding MyConfig.PathToPostBatchFile, Mode=TwoWay}" />
+
+                    <Label Grid.Row="4" Grid.Column="0">Git Path</Label>
+                    <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding MyConfig.PathToGit, Mode=TwoWay}" />
+
+                    <Label Grid.Row="5" Grid.Column="0">Devenv Path</Label>
+                    <TextBox Grid.Row="5" Grid.Column="1" Text="{Binding MyConfig.PathToDevEnv, Mode=TwoWay}" />
+
+                </Grid>
+            </Expander>
+            <Expander Header="GIT" BorderBrush="Black" Margin="2" Padding="2" Background="#FFF0F0F0">
+                <StackPanel>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="80"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Label Grid.Row="0" Grid.Column="0">Repository</Label>
+                        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding MyConfig.RemoteEngineRepository, Mode=TwoWay}" />
+                        <Label Grid.Row="1" Grid.Column="0">Branch</Label>
+                        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding MyConfig.GitBranchToCheckout, Mode=TwoWay}" />
+                        <Label Grid.Row="2" Grid.Column="0">Enabled</Label>
+                        <CheckBox Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" IsChecked="{Binding MyConfig.IsPullingFromServer, Mode=TwoWay}"/>
+                    </Grid>
+                </StackPanel>
+            </Expander>
+            <Expander Header="Excluded projects" BorderBrush="Black" Margin="2" Padding="2" Background="#FFF0F0F0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <ListBox Grid.Row="0" Name="listBoxProjectsToRemove" KeyDown="listBoxProjectsToRemove_KeyDown" SelectionMode="Extended" ItemsSource="{Binding MyConfig.NamesOfProjectsToRemove, Mode=TwoWay}" />
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBox Name="textBoxAddExcludedProject" Width="128" KeyDown="textBoxAddExcludedProject_KeyDown" />
+                        <Button Click="ButtonAddExcludedProject_Click">Add</Button>
+                        <Button Click="ButtonRemoveExcludedProject_Click">Remove</Button>
+                    </StackPanel>
+                </Grid>
+            </Expander>
+            <Expander Header="Solution Build configs" BorderBrush="Black" Margin="2" Padding="2" Background="#FFF0F0F0">
+                <Grid >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <ListBox Grid.Row="0" Name="listBoxConfigs" KeyDown="listBoxConfigs_KeyDown" SelectionMode="Extended" ItemsSource="{Binding MyConfig.SolutionConfigNames, Mode=TwoWay}" />
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBox Name="textBoxAddBuildConfig" Width="128" KeyDown="textBoxAddBuildConfig_KeyDown"></TextBox>
+                        <Button Click="ButtonAddBuildConfig_Click">Add</Button>
+                        <Button Click="ButtonRemoveBuildConfig_Click">Remove</Button>
+                    </StackPanel>
+                </Grid>
+            </Expander>
+            <Expander Header="Custom properties" BorderBrush="Black" Margin="2" Padding="2" Background="#FFF0F0F0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <DataGrid ItemsSource="{Binding MyConfig.PropertyDataToAdd}" AutoGenerateColumns="True" />
+                </Grid>
+            </Expander>
+            <Expander Header="Solution stubs" BorderBrush="Black" Margin="2" Padding="2" Background="#FFF0F0F0">
+                <Grid >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <CheckBox Grid.Row="0" IsChecked="{Binding MyConfig.IsRemovingSolutionCode}">IsRemovingSolutionCode</CheckBox>
+                    <ListBox Grid.Row="1" Name="listBoxSolutionExtensions" SelectionMode="Extended" ItemsSource="{Binding MyConfig.ExtensionsToRemoveSolutionsFrom, Mode=TwoWay}" />
+                    <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBox Name="textBoxAddSolutionExtension" Width="128"></TextBox>
+                        <Button Click="ButtonAddSolutionExtensionBuildConfig_Click">Add</Button>
+                        <Button Click="ButtonRemoveSolutionExtensionBuildConfig_Click">Remove</Button>
+                    </StackPanel>
+                </Grid>
+            </Expander>
+            <Expander Header="Misc" BorderBrush="Black" Margin="2" Padding="2" Background="#FFF0F0F0">
+                <StackPanel>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="80"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Label Grid.Row="0" Grid.Column="0">Engine Sln</Label>
+                        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding MyConfig.EngineName, Mode=TwoWay}" />
+                        <Label Grid.Row="1" Grid.Column="0">Student Sln</Label>
+                        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding MyConfig.StudentEngineName, Mode=TwoWay}" />
+                        <Label Grid.Row="2" Grid.Column="0">Build Project</Label>
+                        <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding MyConfig.ProjectToBuild, Mode=TwoWay}" />
+                    </Grid>
+                    <CheckBox IsChecked="{Binding MyConfig.IsBuildingEngine}">IsBuildingEngine</CheckBox>
+                    <CheckBox IsChecked="{Binding MyConfig.IsBuildingEngineFull}">IsBuildingEngineFull</CheckBox>
+                    <CheckBox IsChecked="{Binding MyConfig.IsBuildingStudentEngine}">IsBuildingStudentEngine</CheckBox>
+                    <CheckBox IsChecked="{Binding MyConfig.IsBuildingStudentEngineFull}">IsBuildingStudentEngineFull</CheckBox>
+                    <Button Name="buttonResetConfig" Width="80" Click="buttonResetConfig_Click">Reset config</Button>
+                </StackPanel>
+            </Expander>
+        </StackPanel>
+
+        <Grid Grid.Row="2">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <!--<Button Margin="5 0 5 0">foo</Button>
+                <Button Margin="5 0 5 0">bar</Button>
+                <Button Margin="5 0 5 0">baz</Button>-->
+            </StackPanel>
+        </Grid>
+    </Grid>
+   
+</UserControl>

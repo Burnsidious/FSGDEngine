@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<GameObject>
+	<Renderer>
+		<TypeName>ShapeRenderer</TypeName>
+		<Path>GDForm/untitled/pSphere1/pSphereShape1/frm_mat_blinn1_rc_LitTexturedShadows.xml</Path>
+	</Renderer>
+	<Collider>
+		<TypeName>SphereCollider</TypeName>
+		<Center><x>0.0</x><y>0.0</y><z>0.0</z></Center>
+		<Radius>1.0</Radius>
+		<PhysicsMaterial>Rubber</PhysicsMaterial>
+	</Collider>
+	<RigidBody>
+		<Mass>500</Mass>
+	</RigidBody>
+	<Light>
+		<TypeName>PointLightSource</TypeName>
+		<CastShadows>0</CastShadows>
+		<Range>5.0</Range>
+		<Ambient><r>0.2</r><g>0.0</g><b>0.0</b></Ambient>
+		<Diffuse><r>0.0</r><g>0.0</g><b>1.0</b></Diffuse>
+		<Specular><r>0.0</r><g>1.0</g><b>0.0</b></Specular>
+	</Light>
+</GameObject>

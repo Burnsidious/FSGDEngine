@@ -1,0 +1,38 @@
+<Settings>
+  
+  <!-- change level for your class, Levels/ed1_level.xml, Levels/ed2_level.xml, Levels/ed3_level.xml -->
+  
+  <Level>Levels/ed2_Level.xml</Level>
+  <Width>1600</Width>
+  <Height>900</Height>
+  <UsePakTextures>false</UsePakTextures>
+  <Fullscreen>false</Fullscreen> <!-- Full screen disables output console window-->
+  <OutputConsoleToFile>false</OutputConsoleToFile> <!-- Logs folder must exist, best viewed not in notepad -->
+  
+  <!-- Shadow mapping variables. Smaller sizes may result in faster frame rates, but lower quality shadows-->
+  <PointShadowSize>256</PointShadowSize>
+  <SpotShadowSize>256</SpotShadowSize>
+
+  <!-- DirectionalShadowSize and ShadowBias values effect eachother, 
+  pick one of three setups for best results. Only the first option found in the file will be used-->
+  <!--<DirectionalShadowSize>2048</DirectionalShadowSize>
+  <ShadowBias>0.002</ShadowBias>-->
+
+  <DirectionalShadowSize>1024</DirectionalShadowSize>
+  <ShadowBias>0.004</ShadowBias>
+
+  <!--<DirectionalShadowSize>512</DirectionalShadowSize>
+  <ShadowBias>0.01</ShadowBias>-->
+  
+  <!-- Directional light shadow cascade information-->
+  <NumCascades>3</NumCascades> <!-- Current maximum of three cascades supported-->
+  <CascadePercent1>0.1</CascadePercent1>
+  <CascadePercent2>0.3</CascadePercent2>
+  <CascadePercent3>0.7</CascadePercent3>
+
+  <!--Post processing effects-->
+  <EnableFog>false</EnableFog>
+  <EnableDepthOfField>false</EnableDepthOfField>
+  <EnableFXAA>false</EnableFXAA>
+  
+</Settings>

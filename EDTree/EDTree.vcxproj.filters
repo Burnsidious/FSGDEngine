@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\kdTree">
+      <UniqueIdentifier>{d24a0da2-5ecb-4dae-8963-a2b58dcc565b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kdTree">
+      <UniqueIdentifier>{137c707a-6e34-4b88-b449-91f897052814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AabbBvh">
+      <UniqueIdentifier>{b3e7c0da-30f2-4030-9c7c-2cf6a0de7cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AabbBvh">
+      <UniqueIdentifier>{1844d891-a328-4cfa-ad2b-15c29136c9f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Header Files">
+      <UniqueIdentifier>{0f1d7e24-09c5-4b36-9846-9cb21db820c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EDTreeNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EDTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kdTree.h">
+      <Filter>Header Files\kdTree</Filter>
+    </ClInclude>
+    <ClInclude Include="kdTreeSplittingPlane.h">
+      <Filter>Header Files\kdTree</Filter>
+    </ClInclude>
+    <ClInclude Include="kdTreeInternalNode.h">
+      <Filter>Header Files\kdTree</Filter>
+    </ClInclude>
+    <ClInclude Include="kdTreeLeafBounds.h">
+      <Filter>Header Files\kdTree</Filter>
+    </ClInclude>
+    <ClInclude Include="kdTreeLeafNode.h">
+      <Filter>Header Files\kdTree</Filter>
+    </ClInclude>
+    <ClInclude Include="AabbBvh.h">
+      <Filter>Header Files\AabbBvh</Filter>
+    </ClInclude>
+    <ClInclude Include="AabbBvhInternalNode.h">
+      <Filter>Header Files\AabbBvh</Filter>
+    </ClInclude>
+    <ClInclude Include="AabbBvhLeafNode.h">
+      <Filter>Header Files\AabbBvh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EDThreadPool\EDSemaphore.h">
+      <Filter>Header Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EDThreadPool\ThreadPool.h">
+      <Filter>Header Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EDThreadPool\WorkerExample.h">
+      <Filter>Header Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EDThreadPool\WorkerThread.h">
+      <Filter>Header Files\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EDTreeNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kdTree.cpp">
+      <Filter>Source Files\kdTree</Filter>
+    </ClCompile>
+    <ClCompile Include="EDTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AabbBvh.cpp">
+      <Filter>Source Files\AabbBvh</Filter>
+    </ClCompile>
+    <ClCompile Include="AabbBvhLeafNode.cpp">
+      <Filter>Source Files\AabbBvh</Filter>
+    </ClCompile>
+    <ClCompile Include="AabbBvhInternalNode.cpp">
+      <Filter>Source Files\AabbBvh</Filter>
+    </ClCompile>
+    <ClCompile Include="precompiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

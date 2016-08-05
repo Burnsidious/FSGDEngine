@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="Shrine">
+<GDMeshFile>GDMesh/BirdShrine.bin</GDMeshFile>
+<GDMaterialFile>GDMaterial/mat_BirdShrine.xml</GDMaterialFile>
+<GDRenderContextFile>BumpTexturedShadows</GDRenderContextFile>
+</GDForm>

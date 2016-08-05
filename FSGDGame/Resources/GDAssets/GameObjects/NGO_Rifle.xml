@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<GameObject>
+	<Renderer>
+		<TypeName>ShapeRenderer</TypeName>
+		<Path>GDForm/CzhenGun/Gun/GunShape/frm_mat_phong1_rc_LitTexturedShadows.xml</Path>
+	</Renderer>
+</GameObject>

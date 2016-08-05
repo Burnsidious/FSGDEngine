@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="mat_lambert3_rc_LitTexturedShadows">
+<GDMeshFile>GDMesh/GDBuggy/BodyShape.bin</GDMeshFile>
+<GDMaterialFile>GDMaterial/buggymodified/mat_lambert3.xml</GDMaterialFile>
+<GDRenderContextFile>BumpTexturedShadows</GDRenderContextFile>
+</GDForm>

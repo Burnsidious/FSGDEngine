@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TextureFileLoaders">
+      <UniqueIdentifier>{2ee49292-5ffa-40b7-8d04-aaced0c2262f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentSerialization">
+      <UniqueIdentifier>{b5ba25c0-dc0e-493a-a3eb-92fb70385b54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrintConsole">
+      <UniqueIdentifier>{935c2c7a-8ab8-4a8b-86fe-12311d4127a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hashing">
+      <UniqueIdentifier>{2960a272-d864-4651-ba29-3175bd2365da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PakFile">
+      <UniqueIdentifier>{9d3b6ca7-a955-4322-8374-3c26e0694a1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{86d0c4ea-2b70-4675-a4d6-c22f90eb8b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Python">
+      <UniqueIdentifier>{756d94f1-c293-45fb-9b75-c6c39dce6643}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BMPFile.h">
+      <Filter>TextureFileLoaders</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalOutput.h" />
+    <ClInclude Include="GDTextureObject.h">
+      <Filter>ContentSerialization</Filter>
+    </ClInclude>
+    <ClInclude Include="GDMesh.h">
+      <Filter>ContentSerialization</Filter>
+    </ClInclude>
+    <ClInclude Include="GDMeshAppearance.h">
+      <Filter>ContentSerialization</Filter>
+    </ClInclude>
+    <ClInclude Include="GDMeshAttribute.h">
+      <Filter>ContentSerialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="ContentManager.h" />
+    <ClInclude Include="ContentManager.hpp" />
+    <ClInclude Include="PrintConsole.h">
+      <Filter>PrintConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintPage.h">
+      <Filter>PrintConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="GDAttribute.h" />
+    <ClInclude Include="GDAttributeTypes.h" />
+    <ClInclude Include="GDMeshStream.h" />
+    <ClInclude Include="XMLLoadingMethods.h">
+      <Filter>ContentSerialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Hasher.h">
+      <Filter>Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="MurmurHash3.h">
+      <Filter>Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomAssert.h" />
+    <ClInclude Include="PakFile.h">
+      <Filter>PakFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h" />
+    <ClInclude Include="Platform.h" />
+    <ClInclude Include="precompiled.h" />
+    <ClInclude Include="Settings.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="PythonModule.h">
+      <Filter>Python</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BMPFile.cpp">
+      <Filter>TextureFileLoaders</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalOutput.cpp" />
+    <ClCompile Include="GDMesh.cpp">
+      <Filter>ContentSerialization</Filter>
+    </ClCompile>
+    <ClCompile Include="GDMeshAppearance.cpp">
+      <Filter>ContentSerialization</Filter>
+    </ClCompile>
+    <ClCompile Include="GDMeshAttribute.cpp">
+      <Filter>ContentSerialization</Filter>
+    </ClCompile>
+    <ClCompile Include="GDTextureObject.cpp">
+      <Filter>ContentSerialization</Filter>
+    </ClCompile>
+    <ClCompile Include="ContentManager.cpp" />
+    <ClCompile Include="PrintConsole.cpp">
+      <Filter>PrintConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintPage.cpp">
+      <Filter>PrintConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="GDAttribute.cpp" />
+    <ClCompile Include="XMLLoadingMethods.cpp">
+      <Filter>ContentSerialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Hasher.cpp">
+      <Filter>Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="MurmurHash3.cpp">
+      <Filter>Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomAssert.cpp" />
+    <ClCompile Include="PakFile.cpp">
+      <Filter>PakFile</Filter>
+    </ClCompile>
+    <ClCompile Include="precompiled.cpp" />
+    <ClCompile Include="Settings.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="PythonModule.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

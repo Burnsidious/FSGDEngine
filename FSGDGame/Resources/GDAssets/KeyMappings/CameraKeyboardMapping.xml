@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<KeyMapping>
+  <Key>W</Key>
+  <State>Held</State>
+  <Message>MSG_MOVE_FORWARD</Message>
+  <Key>S</Key>
+  <State>Held</State>
+  <Message>MSG_MOVE_BACKWARD</Message>
+  <Key>A</Key>
+  <State>Held</State>
+  <Message>MSG_MOVE_LEFT</Message>
+  <Key>D</Key>
+  <State>Held</State>
+  <Message>MSG_MOVE_RIGHT</Message>
+  <Key>Q</Key>
+  <State>Held</State>
+  <Message>MSG_MOVE_UP</Message>
+  <Key>Z</Key>
+  <State>Held</State>
+  <Message>MSG_MOVE_DOWN</Message>
+</KeyMapping>

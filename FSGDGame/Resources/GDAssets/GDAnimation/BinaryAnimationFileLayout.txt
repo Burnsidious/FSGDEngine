@@ -1,0 +1,35 @@
+unsigned int nameLength
+char animationName[nameLength]
+float animationDuration
+unsigned int numBones
+
+//For each bone pre-order Depth First(numBones)
+	unsigned int boneIndex
+	signed int parentIndex
+	unsigned int numKeyframes
+	
+	// For each key frame (numKeyframes)
+		unsigned int currentKeyIndex
+		float keyTime
+		// local joint matrix
+		float XAxis.x
+		float XAxis.y
+		float XAxis.z
+		float XAxis.w		
+		
+		float YAxis.x
+		float YAxis.y
+		float YAxis.z
+		float YAxis.w
+
+		float ZAxis.x
+		float ZAxis.y
+		float ZAxis.z
+		float ZAxis.w
+
+		float WAxis.x
+		float WAxis.y
+		float WAxis.z
+		float WAxis.w
+
+		

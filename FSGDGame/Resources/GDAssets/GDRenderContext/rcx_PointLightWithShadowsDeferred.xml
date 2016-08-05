@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<GDRenderContext name="PointLightWithShadowsDeferred">
+<Material></Material>
+<Effect>DeferredPointLightWithShadows.xml</Effect>
+<Technique>RenderPointLight</Technique>
+<PointLightTechnique>RenderPointLight</PointLightTechnique>
+<VertexFormat>VERTEX_POS</VertexFormat>
+<CastShadows>false</CastShadows>
+<RenderStyle>DEFERRED</RenderStyle>
+</GDRenderContext>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<GameObject>
+	<Tag>Box</Tag>
+	<Renderer>
+		<TypeName>ShapeRenderer</TypeName>
+		<Path>GDForm\AGarza_Crate\polySurface370\polySurfaceShape225/frm_mat_Crate_T_rc_LitTexturedShadows.xml</Path>
+	</Renderer>
+	<Collider>
+		<TypeName>BoxCollider</TypeName>
+		<Center><x>0.0</x><y>0.25</y><z>0.0</z></Center>
+		<Extents><x>0.3</x><y>0.25</y><z>0.6</z></Extents>
+	</Collider>
+	<RigidBody>
+		<CenterOfMass><y>0.25</y></CenterOfMass>
+		<Mass>0.125</Mass>
+	</RigidBody>
+</GameObject>

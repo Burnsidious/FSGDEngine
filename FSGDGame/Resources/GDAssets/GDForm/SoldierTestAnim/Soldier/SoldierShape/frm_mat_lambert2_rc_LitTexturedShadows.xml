@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<GDForm name="mat_lambert2_rc_LitTexturedShadows">
+<GDMeshFile>/GDMesh/SoldierTestAnim/SoldierShape.bin</GDMeshFile>
+<GDMaterialFile>/GDMaterial/SoldierTestAnim/mat_lambert2.xml</GDMaterialFile>
+<GDRenderContextFile>BumpTexturedShadowsSkinned</GDRenderContextFile>
+<RenderShapeType>RenderShapeSkinned</RenderShapeType>
+</GDForm>

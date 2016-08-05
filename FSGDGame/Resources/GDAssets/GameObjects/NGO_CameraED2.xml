@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<GameObject>
+	<Transform>
+	<WAxis><y>1.0</y><z>-5.0</z></WAxis>
+	</Transform>
+	<Tag>MainCamera</Tag>
+  <Camera>
+    <!--<FieldOfView>1.25663</FieldOfView>-->
+    <FarDistance>100</FarDistance>
+  </Camera>
+	<Behaviors>
+		<Manipulator/>
+		<Mover/>
+		<KeyboardController>
+			<Path>KeyMappings/CameraKeyboardMapping.xml</Path>
+		</KeyboardController>
+		<MouseLookController>
+			<Path>KeyMappings/CameraMouseMapping.xml</Path>
+		</MouseLookController>
+		<!--<GamepadController>
+			<Path>KeyMappings/CameraGamepadMapping.xml</Path>
+		</GamepadController>-->
+	</Behaviors>
+</GameObject>

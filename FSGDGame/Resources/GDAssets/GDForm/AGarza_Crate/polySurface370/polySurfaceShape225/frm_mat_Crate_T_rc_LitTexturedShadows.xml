@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="mat_Crate_T_rc_LitTexturedShadows">
+<GDMeshFile>/GDMesh/AGarza_Crate/polySurfaceShape225.bin</GDMeshFile>
+<GDMaterialFile>/GDMaterial/AGarza_Crate/mat_Crate_T.xml</GDMaterialFile>
+<GDRenderContextFile>BumpTexturedShadows</GDRenderContextFile>
+</GDForm>

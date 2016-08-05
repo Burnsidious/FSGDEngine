@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<GameObject>
+	<DestroyOnLoad>False</DestroyOnLoad>
+	<Path>GameObjects/NGO_Buggy.xml</Path>
+	<Behaviors>
+		<KeyboardController>
+			<Path>KeyMappings/PlayerKeyboardMapping.xml</Path>
+		</KeyboardController>
+    <GamepadController>
+      <Path>KeyMappings/PlayerJoystickMapping.xml</Path>
+    </GamepadController>
+		<!--<MouseLookController>
+			<Path>KeyMappings/CameraMouseMapping.xml</Path>
+		</MouseLookController>-->
+	</Behaviors>
+	<!--<Children>
+		<GameObject>
+			<Parent>Gun</Parent>
+			<Light>
+				<TypeName>PointLightSource</TypeName>
+				<CastShadows>1</CastShadows>
+				<Range>5.0</Range>
+				<Ambient><r>1.0</r><g>0.0</g><b>0.0</b></Ambient>
+				<Diffuse><r>1.0</r><g>0.0</g><b>0.0</b></Diffuse>
+				<Specular><r>1.0</r><g>0.0</g><b>0.0</b></Specular>
+			</Light>
+		</GameObject>
+	</Children>-->
+</GameObject>

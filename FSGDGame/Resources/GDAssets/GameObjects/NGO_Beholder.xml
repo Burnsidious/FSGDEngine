@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<GameObject>
+  
+	<Renderer>
+		<TypeName>ShapeRenderer</TypeName>
+		<Path>GDForm/untitled/pSphere1/pSphereShape1/frm_mat_beholder.xml</Path>
+	</Renderer>
+  
+  <Behaviors>
+    <TurnTo>
+		  <TargetName>PlayerBuggy</TargetName>
+      <TurnSpeed>0.05f</TurnSpeed>
+	  </TurnTo>
+  </Behaviors>
+  
+  <Tag>Beholder</Tag>
+
+</GameObject>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="TreeHouse">
+<GDMeshFile>GDMesh/TempleLamp.bin</GDMeshFile>
+<GDMaterialFile>GDMaterial/mat_TempleLamp.xml</GDMaterialFile>
+<GDRenderContextFile>BumpTexturedShadows</GDRenderContextFile>
+</GDForm>

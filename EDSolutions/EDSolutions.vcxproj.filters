@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="RenderSolutions">
+      <UniqueIdentifier>{0deacb56-4c6b-413d-9127-7eff147be7c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSolutions\Header Files">
+      <UniqueIdentifier>{25fc5fa0-726b-4bd6-9d29-8f400fa3dd4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSolutions\Source Files">
+      <UniqueIdentifier>{1d7f0c7c-eb99-436d-9ac0-8c4f9ce10a82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DeferredRenderSolutions">
+      <UniqueIdentifier>{25b28c26-d6da-4416-ba9e-a182d450bc61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DeferredRenderSolutions\Header Files">
+      <UniqueIdentifier>{37f7be28-1fb8-4775-b994-28ae1e531e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DeferredRenderSolutions\Source Files">
+      <UniqueIdentifier>{c61121c7-f129-429a-abb0-906c28316d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShadowMapping">
+      <UniqueIdentifier>{820f34fb-ecc3-4a10-a664-9ed09d4c58fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SortingAndHierarchy">
+      <UniqueIdentifier>{33ffb6d4-63f3-4e71-bd8d-38cd4ee406d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessSolutions">
+      <UniqueIdentifier>{0013042b-9c6f-4f9a-99d4-2ca008154302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThreadPoolSolutions">
+      <UniqueIdentifier>{6e96f7c7-4f56-4410-bf1d-da3547753ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MatrixBehaviorSolutions">
+      <UniqueIdentifier>{32d10482-40e0-4f26-ba24-c0500f4ee057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LOD">
+      <UniqueIdentifier>{45310ad7-6ca3-4b72-999a-7420f8234c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PakFile">
+      <UniqueIdentifier>{f073f436-baf9-4da1-a396-cf36643ac339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CollisionSolutions">
+      <UniqueIdentifier>{f968a68a-aafa-4f74-a615-61f37555d416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpatialSolutions">
+      <UniqueIdentifier>{799c131a-13df-4022-8485-f2f6ba1c3c0f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RendererSolutions.cpp">
+      <Filter>RenderSolutions\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSolutions.cpp" />
+    <ClCompile Include="RenderContextSolutions.cpp">
+      <Filter>RenderSolutions\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderShapeSolutions.cpp">
+      <Filter>RenderSolutions\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderShapeWithTextureSolutions.cpp">
+      <Filter>RenderSolutions\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBufferSolutions.cpp">
+      <Filter>RenderSolutions\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTargetSolutions.cpp">
+      <Filter>DeferredRenderSolutions\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredRenderControllerSolutions.cpp">
+      <Filter>DeferredRenderSolutions\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowRenderController.cpp">
+      <Filter>ShadowMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSetSolution.cpp">
+      <Filter>SortingAndHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSetSortedSolution.cpp">
+      <Filter>SortingAndHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessSolutions.cpp">
+      <Filter>PostProcessSolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessChainSolutions.cpp">
+      <Filter>PostProcessSolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPoolSolution.cpp">
+      <Filter>ThreadPoolSolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnToSolution.cpp">
+      <Filter>MatrixBehaviorSolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="LookAtSolution.cpp">
+      <Filter>MatrixBehaviorSolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseLookBehaviorSolution.cpp">
+      <Filter>MatrixBehaviorSolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="TranslatorBehaviorSolution.cpp">
+      <Filter>MatrixBehaviorSolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraBehaviorSolution.cpp">
+      <Filter>MatrixBehaviorSolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="LODSolution.cpp">
+      <Filter>LOD</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformNodeSolution.cpp">
+      <Filter>SortingAndHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderContextWithTextureSolutions.cpp">
+      <Filter>RenderSolutions\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PakFileSolution.cpp">
+      <Filter>PakFile</Filter>
+    </ClCompile>
+    <ClCompile Include="precompiled.cpp" />
+    <ClCompile Include="aabbSolutions.cpp">
+      <Filter>CollisionSolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="capsuleSolutions.cpp">
+      <Filter>CollisionSolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="obbSolutions.cpp">
+      <Filter>CollisionSolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="raySolutions.cpp">
+      <Filter>CollisionSolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="segmentSolutions.cpp">
+      <Filter>CollisionSolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="sphereSolutions.cpp">
+      <Filter>CollisionSolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="triangleSolutions.cpp">
+      <Filter>CollisionSolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="EDBVHSolutions.cpp">
+      <Filter>CollisionSolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="DynAabbTreeSolutions.cpp">
+      <Filter>SpatialSolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="PID_Solution.cpp">
+      <Filter>MatrixBehaviorSolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="PIDFollowerSolution.cpp">
+      <Filter>MatrixBehaviorSolutions</Filter>
+    </ClCompile>
+    <ClCompile Include="PythonSolution.cpp">
+      <Filter>MatrixBehaviorSolutions</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="frm_mat_beholder">
+<GDMeshFile>GDMesh/unitsphere/pSphereShape1.bin</GDMeshFile>
+<GDMaterialFile>GDMaterial/untitled/mat_beholder.xml</GDMaterialFile>
+<GDRenderContextFile>LitTexturedTransparent</GDRenderContextFile>
+</GDForm>

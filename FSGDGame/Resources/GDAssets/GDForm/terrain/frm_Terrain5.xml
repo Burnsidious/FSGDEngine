@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="GroundShape5">
+<GDMeshFile>GDMesh/terrain/GroundShape5.bin</GDMeshFile>
+<GDMaterialFile>GDMaterial/terrain/mat_blinn1.xml</GDMaterialFile>
+<GDRenderContextFile>Terrain</GDRenderContextFile>
+</GDForm>

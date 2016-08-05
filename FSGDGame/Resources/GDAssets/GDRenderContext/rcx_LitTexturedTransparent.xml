@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<GDRenderContext name="LitTexturedTransparent">
+<Material></Material>
+<Effect>LitTexturedEffect.xml</Effect>
+<Technique>Basic</Technique>
+<TransparencyTechnique>Transparency</TransparencyTechnique>
+<DepthSpotLightTechnique>DepthSpotLight</DepthSpotLightTechnique>
+<DepthPointLightTechnique>DepthPointLight</DepthPointLightTechnique>
+<DepthDirectionalLightTechnique>DepthDirectionalLight</DepthDirectionalLightTechnique>
+<VertexFormat>VERTEX_POSNORMTEX</VertexFormat>
+<CastShadows>false</CastShadows>
+<RenderStyle>TRANSPARENT</RenderStyle>
+</GDRenderContext>

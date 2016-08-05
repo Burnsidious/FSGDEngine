@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<GameObject>
+	<Renderer>
+		<TypeName>ShapeRenderer</TypeName>
+		<Path>GDForm\VZ_Robot_Walk\robotkid\robotkidShape/frm_mat_blinn1_rc_LitTexturedShadowsNotSkinned.xml</Path>
+	</Renderer>
+	<Collider>
+		<TypeName>CharacterCollider</TypeName>
+	</Collider>
+	<RigidBody>
+		<CenterOfMass><y>1.0</y></CenterOfMass>
+		<AngularFactor>0.0</AngularFactor>
+		<LinearFactors><x>0.0</x><z>0.0</z></LinearFactors>
+		<Mass>1100</Mass>
+	</RigidBody>
+</GameObject>

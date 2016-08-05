@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<GDRenderContext name="SpotLightDeferred">
+<Material></Material>
+<Effect>DeferredSpotLightWithShadows.xml</Effect>
+<Technique>RenderSpotLight</Technique>
+<SpotLightTechnique>RenderSpotLight</SpotLightTechnique>
+<VertexFormat>VERTEX_POS</VertexFormat>
+<CastShadows>false</CastShadows>
+<RenderStyle>DEFERRED</RenderStyle>
+</GDRenderContext>

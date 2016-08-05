@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="BigTree">
+<GDMeshFile>GDMesh/BigTree.bin</GDMeshFile>
+<GDMaterialFile>GDMaterial/mat_BigTree.xml</GDMaterialFile>
+<GDRenderContextFile>BumpTexturedShadowsNoCull</GDRenderContextFile>
+</GDForm>

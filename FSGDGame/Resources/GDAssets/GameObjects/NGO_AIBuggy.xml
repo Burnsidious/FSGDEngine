@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<GameObject>
+	<Path>GameObjects/NGO_Buggy.xml</Path>
+	<Behaviors>
+		<Seeker>
+			<TargetTag>AISoldier</TargetTag>
+			<TrackingJoint>Gun</TrackingJoint>
+		</Seeker>
+	</Behaviors>
+	<Children>
+		<GameObject>
+			<Tag>Buggy</Tag>
+			<Layer>Aggro</Layer>
+			<Collider>
+				<TypeName>SphereCollider</TypeName>
+				<Radius>15.0</Radius>
+				<Trigger/>
+			</Collider>
+		</GameObject>
+	</Children>
+</GameObject>

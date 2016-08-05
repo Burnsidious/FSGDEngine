@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Game>
+	<Layers>
+		<Name>Aggro</Name>
+	</Layers>
+	
+	<PhysicsMaterials>
+		<Material>
+			<Name>Rubber</Name>
+			<Bounciness>1.0</Bounciness>
+			<Friction>0.5</Friction>
+		</Material>
+	</PhysicsMaterials>
+  
+	<Prefabs>
+		<GameObject>
+			<Name>Terrain</Name>
+			<Path>GameObjects/NGO_Terrain.xml</Path>
+		</GameObject>
+		<GameObject>
+			<Name>DirLight</Name>
+			<Path>GameObjects/NGO_DirLight.xml</Path>
+		</GameObject>		
+		<GameObject>
+			<Name>Camera</Name>
+			<Path>GameObjects/NGO_Camera.xml</Path>
+		</GameObject>
+	</Prefabs>
+
+	<Scene>
+		<Name>Scene01</Name>
+		<SkyBox>
+			<TypeName>SkyBox</TypeName>
+			<Path>GDForm/skybox/pCube1/pCubeShape1/frm_mat_blinn1_rc_SkyBox0.xml</Path>
+		</SkyBox>
+	  
+		<Instance>
+			<Prefab>Camera</Prefab>
+		</Instance>
+		
+		<Instance>
+			<Prefab>Terrain</Prefab>
+		</Instance>
+		
+		<Instance>
+			<Prefab>DirLight</Prefab>
+			<Transform><ZAxis><x>-0.5</x><y>-0.5</y><z>-0.707</z></ZAxis></Transform>
+		</Instance>	
+
+	</Scene>
+</Game>

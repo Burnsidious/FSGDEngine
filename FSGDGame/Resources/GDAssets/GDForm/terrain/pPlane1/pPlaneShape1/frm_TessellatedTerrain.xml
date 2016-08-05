@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<GDForm name="frm_TesselatedTerrain">
+<GDMeshFile></GDMeshFile>
+<GDMaterialFile>GDMaterial/terrain/mat_blinn1.xml</GDMaterialFile>
+<GDRenderContextFile>TessellatedTerrain</GDRenderContextFile>
+</GDForm>

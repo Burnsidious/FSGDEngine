@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<GameObject>
+  <Name>Mushroom</Name>
+  <Renderer>
+    <TypeName>ShapeRenderer</TypeName>
+    <Path>GDForm/frm_Mushroom.xml</Path>
+  </Renderer>
+  <Collider>
+    <TypeName>BVHCollider</TypeName>
+    <Path>GDMesh/Mushroom.bin</Path>
+  </Collider>
+</GameObject>

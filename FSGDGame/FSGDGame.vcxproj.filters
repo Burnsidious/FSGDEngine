@@ -1,0 +1,608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{482a5eca-08d9-4895-8d65-873b1c5f2748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GOCABehaviors">
+      <UniqueIdentifier>{56b0b279-6dc5-448e-857d-a9e2c54c4f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GOCABehaviors\Header Files">
+      <UniqueIdentifier>{4f788890-18d9-421e-a26f-258570c28aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GOCABehaviors\Source Files">
+      <UniqueIdentifier>{60b033e7-8eb7-4e70-a751-0be2f0168869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\VertexShaders">
+      <UniqueIdentifier>{6aa1b2b7-0390-43ff-a603-f495dfc2480b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Header Files">
+      <UniqueIdentifier>{04b3246d-f5ad-4b3a-ab84-1fbea485090c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Pixel Shaders">
+      <UniqueIdentifier>{22fc3ed2-511c-441f-9133-32ff6b39cb56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\VertexShaders\InputLayout">
+      <UniqueIdentifier>{db1cff48-2ad3-4673-89f7-5a4430b8332b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Geometry Shaders">
+      <UniqueIdentifier>{f7276830-37ec-4d48-aaff-17a0e2c16cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Hull Shaders">
+      <UniqueIdentifier>{b22ee460-8347-45fe-ac36-3fe3f3fb0e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Domain Shaders">
+      <UniqueIdentifier>{5702fa99-7313-4a61-a1eb-6666562ee3be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels">
+      <UniqueIdentifier>{5d8988e4-ca7c-47c6-b565-5db31afc036c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InputConsole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FSGDGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FSGDWinMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessChain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArchGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FSGDOcclusionQuery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExampleGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BuggyDriver.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Evader.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowObserver.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpPad.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardController.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Manipulator.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseLookController.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mover.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLightSource.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Seeker.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeRenderer.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLightSource.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLightSource.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ForwardLightManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LookAt.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GamepadController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Picking.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Target.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HardAttach.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Crosshair.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Blast.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplodeOnCollide.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sparkle.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WndProcDebug.h" />
+    <ClInclude Include="TerrainController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnTo.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PIDFollower.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PythonBehavior.h">
+      <Filter>GOCABehaviors\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InputConsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSGDGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSGDWinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessChain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderControllerCommands.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSGDOcclusionQuery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExampleGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BuggyDriver.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Evader.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowObserver.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpPad.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardController.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Manipulator.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseLookController.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mover.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLightSource.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Seeker.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeRenderer.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLightSource.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="precompiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLightSource.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ForwardLightManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LookAt.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GamepadController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Picking.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Target.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HardAttach.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Crosshair.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Blast.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplodeOnCollide.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sparkle.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProcDebug.cpp" />
+    <ClCompile Include="TerrainController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnTo.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PIDFollower.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PythonBehavior.cpp">
+      <Filter>GOCABehaviors\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="FSGDGame.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TexturesAndSamplers.hlsli">
+      <Filter>Shaders\Header Files</Filter>
+    </None>
+    <None Include="VertexLayouts.hlsli">
+      <Filter>Shaders\Header Files</Filter>
+    </None>
+    <None Include="PixelLayouts.hlsli">
+      <Filter>Shaders\Header Files</Filter>
+    </None>
+    <None Include="ForwardLightingSupport.hlsli">
+      <Filter>Shaders\Header Files</Filter>
+    </None>
+    <None Include="GaussianBlur.hlsli">
+      <Filter>Shaders\Header Files</Filter>
+    </None>
+    <None Include="DepthPoint_VS.hlsli">
+      <Filter>Shaders\Header Files</Filter>
+    </None>
+    <None Include="Tesselation.hlsli">
+      <Filter>Shaders\Header Files</Filter>
+    </None>
+    <None Include="LightSupport.hlsli">
+      <Filter>Shaders\Header Files</Filter>
+    </None>
+    <None Include="ShadowSupport.hlsli">
+      <Filter>Shaders\Header Files</Filter>
+    </None>
+    <None Include="TerrainSupport.hlsli">
+      <Filter>Shaders\Header Files</Filter>
+    </None>
+    <None Include="GBuffersShared.hlsli">
+      <Filter>Shaders\Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FSGDGame.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="2DPassThrough_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="2DPassThroughWithPosition_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexLayout_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DeferredDirLight_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DiffuseSampler_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="FarClipPosition_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Red_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DeferredPointLight_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DeferredSpotLight_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="SkyBox_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="SkyBox_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="LitTextured_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GBuffers_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GBuffersTerrain_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexLayout_POS_VS.hlsl">
+      <Filter>Shaders\VertexShaders\InputLayout</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexLayout_POSCOLOR_VS.hlsl">
+      <Filter>Shaders\VertexShaders\InputLayout</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexLayout_POSTEX_VS.hlsl">
+      <Filter>Shaders\VertexShaders\InputLayout</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexLayout_POSNORMTEX_VS.hlsl">
+      <Filter>Shaders\VertexShaders\InputLayout</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexLayout_POSNORMTANTEX_VS.hlsl">
+      <Filter>Shaders\VertexShaders\InputLayout</Filter>
+    </FxCompile>
+    <FxCompile Include="DepthCamera_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Depth_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GBuffersBump_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GBuffersBump_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GBuffers_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DepthSpot_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DepthDirectional_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Black_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Green_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DrawEdge_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DepthOfField_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GaussianBlurH_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GaussianBlurV_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GaussianBlur_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PosColorTransform_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="ColorPassThrough_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="LineWidth_GS.hlsl">
+      <Filter>Shaders\Geometry Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PauseEffect_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PostTest_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="FXAA_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="CubeMap_GS.hlsl">
+      <Filter>Shaders\Geometry Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DepthPoint_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PostPassThrough_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="UpSample_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="BrightPass_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PostCombineAdd_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GaussianBloom_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Fog_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexLayout_POSBONEWEIGHTNORMTANTEX_VS.hlsl">
+      <Filter>Shaders\VertexShaders\InputLayout</Filter>
+    </FxCompile>
+    <FxCompile Include="LitTextured_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexLayout_POSBONEWEIGHTNORMTEX_VS.hlsl">
+      <Filter>Shaders\VertexShaders\InputLayout</Filter>
+    </FxCompile>
+    <FxCompile Include="GBuffersSkinned_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DepthDirectionalSkinned_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DepthPointSkinned_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DepthSpotSkinned_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GBuffersBumpSkinned_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DepthSpotBumpSkinned_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DepthPointBumpSkinned_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DepthDirectionalBumpSkinned_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="TesselationTest_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="TesselationTest_HS.hlsl">
+      <Filter>Shaders\Hull Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="TesselationTest_DS.hlsl">
+      <Filter>Shaders\Domain Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="TesselationTest_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GBuffersTess_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GBuffers_HS.hlsl">
+      <Filter>Shaders\Hull Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GBuffers_DS.hlsl">
+      <Filter>Shaders\Domain Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GBuffersBumpTess_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GBuffersBump_HS.hlsl">
+      <Filter>Shaders\Hull Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GBuffersBump_DS.hlsl">
+      <Filter>Shaders\Domain Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DeferredPointLightWithShadows_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DeferredSpotLightWithShadows_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DrawEdgeSobel_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DrawEdgeNormSobel_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexLayout_POSBONEWEIGHT_VS.hlsl">
+      <Filter>Shaders\VertexShaders\InputLayout</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexLayout_Terrain_VS.hlsl">
+      <Filter>Shaders\VertexShaders\InputLayout</Filter>
+    </FxCompile>
+    <FxCompile Include="GBuffersTessellatedTerrain_DS.hlsl">
+      <Filter>Shaders\Domain Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GBuffersTessellatedTerrain_HS.hlsl">
+      <Filter>Shaders\Hull Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GBuffersTessellatedTerrain_PS.hlsl">
+      <Filter>Shaders\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GBuffersTessellatedTerrain_VS.hlsl">
+      <Filter>Shaders\VertexShaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Resources\GDAssets\Settings\settings.xml" />
+    <Xml Include="Resources\GDAssets\Levels\ed1_level.xml">
+      <Filter>Levels</Filter>
+    </Xml>
+    <Xml Include="Resources\GDAssets\Levels\ed2_level.xml">
+      <Filter>Levels</Filter>
+    </Xml>
+    <Xml Include="Resources\GDAssets\Levels\ed3_level.xml">
+      <Filter>Levels</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

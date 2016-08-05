@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<KeyMapping>
+<Key>I</Key>
+<State>Held</State>
+<Message>MSG_MOVE_FORWARD</Message>
+<Key>K</Key>
+<State>Held</State>
+<Message>MSG_MOVE_BACKWARD</Message>
+<Key>J</Key>
+<State>Held</State>
+<Message>MSG_TURN_LEFT</Message>
+<Key>L</Key>
+<State>Held</State>
+<Message>MSG_TURN_RIGHT</Message>
+<Key>VK_RETURN</Key>
+<State>Pressed</State>
+<Message>MSG_FIRE</Message>
+</KeyMapping>
